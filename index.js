@@ -57,3 +57,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+// index.js တွင်
+function showPart(partId) {
+  const sound = new Audio(`sounds/${partId}.mp3`);
+  sound.play();
+  // ...ရှိပြီးသား code...
+}
