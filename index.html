@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ကားအစိတ်အပိုင်းများ</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1>ကားအစိတ်အပိုင်းများ</h1>
-
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Car Parts App</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
-        <img src="car-outline.jpg" alt="Car Outline" width="500">
-    </div>
-    <script src="index.js"></script>
-</body>
-</html>
+        <h1>ကားအစိတ်အပိုင်းများ</h1>
+        
+        <div class="car-diagram">
+            <img src="images/car-outline.jpg" alt="Car Outline" id="car-image" usemap="#car-parts">
+            
+            <map name="car-parts">
+                <area shape="rect" coords="100,50,200,100" alt="Engine" data-part="engine">
+                <area shape="rect" coords="250,150,350,200" alt="Wheel" data-part="wheel">
+                <area shape="rect" coords="150,200,250,250" alt="Door" data-part="door">
+                <area shape="rect" coords="300,50,400,100" alt="Headlight" data-part="headlight">
+            </map>
+        </div>
         
         <div class="part-info" id="part-info">
             <p>ကားအစိတ်အပိုင်းတစ်ခုကို ရွေးချယ်ပါ</p>
@@ -40,6 +36,6 @@
         </div>
     </div>
     
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
