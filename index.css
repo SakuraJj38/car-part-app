@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #110f0f;
     color: #333;
 }
 
@@ -28,14 +28,14 @@ h1, h2 {
 .car-diagram img {
     max-width: 100%;
     height: auto;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     padding: 5px;
-    background-color: white;
+    background-color: rgb(255, 244, 244);
 }
 
 .part-info {
-    background-color: white;
+    background-color: rgb(248, 243, 243);
     padding: 15px;
     border-radius: 5px;
     margin: 20px 0;
@@ -68,9 +68,10 @@ h1, h2 {
 }
 
 .parts-list button:hover {
-    background-color: #2980b9;
+    background-color: #29b930;
 }
 
+/* Highlight selected part */
 .highlight {
     fill: rgba(255, 255, 0, 0.5);
 }
